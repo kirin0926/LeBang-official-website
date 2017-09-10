@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+html { overflow: hidden; }
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }
+body { font-family: "微软雅黑"; font-size: 12px; color: #000000; word-wrap: break-word; behavior: url("csshover.htc"); overflow: hidden; }
+button, input, select, textarea { font: 12px/1.5 Arial, "宋体", Helvetica, Verdana, sans-serif; word-wrap: break-word; color: #565756; }
+ul, li { list-style: none; margin: 0; padding: 0; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; font-size: 100%; }
+img { border: none; border: 0; vertical-align: middle; }
+a { text-decoration: none; outline: none; }
+p { margin: 0; padding: 0; }
+input, select, textarea { vertical-align: middle; *font-size:100%;
+}
+input { margin: 0; outline: none; padding: 0; }
+input::-ms-clear {
+    display:none;
+}
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix { *zoom:1}
+.ddw { position: absolute; left: 0; top: 0; color: #000; font-size: 16px; z-index: 9999; }
+.ddw2 { position: absolute; left: 20px; top: 0; color: #000; font-size: 16px; z-index: 9999; }
+.num_box { position: relative; }
+.num { color: #fff; font-size: 50px; width: 100%; text-align: center; position: relative; }
+.num p { position: absolute; top: 0; left: 50%; margin-left: -315px; background:#000; padding:3px 15px; opacity:0.6; filter:alpha(opacity=60) }
+#num_0{
+    background: #ff7920;
+}
+#num_1{
+    background: #3ebbf6 ;
+}
+#num_2{
+    background: #fa6161;
+}
+#num_3{
+    background: #4ec9a7;
+}
+.fixed_r { position: absolute; right: 10px; top: 200px; z-index: 999; }
+.fixed_r li {
+    display: block;
+    margin-top: 4px;
+    padding-right: 26px;
+    text-align: right;
+    cursor: pointer;
+    background: url("../images/btnlist.png") no-repeat right center;
+    float: right!important;
+    clear: both;
+    overflow: hidden;
+    width: 1px;
+    height: 28px;
+    line-height: 28px;
+    position: relative;
+    font-size: 12px;
+    color: #a6bee0;
+}
+.fixed_r li.on {
+    width: 62px;
+    background: url("../images/btnlist_sel.png") no-repeat right center;
+}
+.fixed_r li:hover {
+    width: 62px;
+    background: url("../images/btnlist_sel.png") no-repeat right center;
+}
